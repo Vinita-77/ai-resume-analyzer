@@ -1,5 +1,5 @@
 import streamlit as st
-from PyPDF2 import PdfReader
+from PyPdf import PdfReader
 from skills import job_roles
 
 st.title("AI Resume Analyzer")
