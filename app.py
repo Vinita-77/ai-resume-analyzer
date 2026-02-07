@@ -1,5 +1,5 @@
 import streamlit as st
-from pypdf import PdfReader
+from PyPDF2 import PdfReader
 from skills import job_roles
 
 st.title("AI Resume Analyzer")
@@ -37,3 +37,4 @@ if uploaded_file:
     st.write("**Missing Skills:**")
 
     st.write(missing_skills)
+
