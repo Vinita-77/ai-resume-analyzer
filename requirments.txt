@@ -3,6 +3,7 @@ pandas
 numpy
 scikit-learn
 nltk
-pypdf==3.17.4
+PyPDF2
+
 
 
